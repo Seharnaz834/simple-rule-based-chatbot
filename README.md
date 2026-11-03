@@ -1,9 +1,9 @@
-# Simple Rule-Based Chatbot — "Nova"
+# Simple Rule-Based Chatbot "Nova"
 
-**Internship Hands-On Project — Pynexia Technology**
+**Internship Hands-On Project Pynexia Technology**
 **Submitted by: Sehar Naz**
 
-A terminal chatbot built **only** on predefined rules — no machine learning, no external libraries. Nova cleans what you type, matches it against keyword intents and if-then regex rules, remembers your name — and also calculates, knows 51 capital cities, defines 34 concepts, names famous inventors, and tells the live time and date.
+A terminal chatbot built **only** on predefined rules  no machine learning, no external libraries. Nova cleans what you type, matches it against keyword intents and if-then regex rules, remembers your name and also calculates, knows 51 capital cities, defines 34 concepts, names famous inventors, and tells the live time and date.
 
 ## Assignment Tasks Covered
 
@@ -14,11 +14,11 @@ A terminal chatbot built **only** on predefined rules — no machine learning, n
 
 ## How Nova Works (5 stages)
 
-1. **Input** — a chat loop reads a line from the terminal.
-2. **Clean** — `clean_text()` lowercases, removes punctuation, collapses spaces.
-3. **If-then rules** — regex patterns capture the user's name, recall it later, and respond to feelings.
-4. **Smart rules** — a calculator (sums, percentages, squares, multiplication tables), capital cities, a definition dictionary, famous inventors, and live time & date read from the system clock.
-5. **Intent match** — 25 intents are scored by keyword hits. Longer, specific phrases outrank generic words, and single-word keywords must match a whole token. No match? A rotating fallback steers the user back to known topics.
+1. **Input**  a chat loop reads a line from the terminal.
+2. **Clean**  `clean_text()` lowercases, removes punctuation, collapses spaces.
+3. **If-then rules**  regex patterns capture the user's name, recall it later, and respond to feelings.
+4. **Smart rules**  a calculator (sums, percentages, squares, multiplication tables), capital cities, a definition dictionary, famous inventors, and live time & date read from the system clock.
+5. **Intent match**  25 intents are scored by keyword hits. Longer, specific phrases outrank generic words, and single-word keywords must match a whole token. No match? A rotating fallback steers the user back to known topics.
 
 **Intents (25):** greeting · how_are_you · bot_identity · creator · bot_age · bot_location · internship · python_help · ai_topics · search_algorithms · study_tips · weather · sports · entertainment · food · travel · gaming · pakistan · health_tips · favourites · insult · help · thanks · joke · farewell
 
@@ -38,11 +38,11 @@ Only Python 3 and its standard library (`re`, `random`, `string`, `sys`) are nee
 ALL TESTS PASSED (41/41 checks)
 ```
 
-The suite checks one realistic sentence per intent, a nonsense input that must match no intent, text cleaning, name memory, and 12 smart-rule answers (arithmetic, capitals, definitions, inventors, live time and date). During development it caught three real bugs — a scoring tie, a substring trap (keyword `ai` firing inside `explain`), and the text cleaner deleting the `+` sign before the calculator could see it — all fixed and permanently covered by tests. See the PDF report for details.
+The suite checks one realistic sentence per intent, a nonsense input that must match no intent, text cleaning, name memory, and 12 smart-rule answers (arithmetic, capitals, definitions, inventors, live time and date). During development it caught three real bugs — a scoring tie, a substring trap (keyword `ai` firing inside `explain`), and the text cleaner deleting the `+` sign before the calculator could see it  all fixed and permanently covered by tests. See the PDF report for details.
 
 ## Files in This Repository
 
-- `chatbot.py` — complete source code
+- `chatbot.py`  complete source code
 - `program_output.txt` — actual verified demo conversation transcript
 - `Sehar_Naz_Rule_Based_Chatbot_Pynexia_Technology.pdf` — full 18-page project report
 
