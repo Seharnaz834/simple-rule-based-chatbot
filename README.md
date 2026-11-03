@@ -43,8 +43,8 @@ The suite checks one realistic sentence per intent, a nonsense input that must m
 ## Files in This Repository
 
 - `chatbot.py`  complete source code
-- `program_output.txt` — actual verified demo conversation transcript
-- `Sehar_Naz_Rule_Based_Chatbot_Pynexia_Technology.pdf` — full 18-page project report
+- `program_output.txt`  actual verified demo conversation transcript
+- `Sehar_Naz_Rule_Based_Chatbot_Pynexia_Technology.pdf`  full 18-page project report
 
 ## Sample Conversation
 
