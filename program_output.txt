@@ -1,0 +1,32 @@
+Nova: Hello! I am Nova, a rule-based chatbot.
+Nova: Ask me almost anything - type 'help' to see what I can do, or 'bye' to exit.
+You: Hello!
+Nova: Hi there! I can chat, calculate, define terms and answer general questions. Try me!
+You: My name is Sehar
+Nova: Nice to meet you, Sehar! I will remember your name. Ask me anything - or type 'help'.
+You: What is my name?
+Nova: Your name is Sehar - see, my memory rule works!
+You: What is 24 x 6?
+Nova: 24 x 6 = 144.
+You: What is the capital of Japan?
+Nova: The capital of Japan is Tokyo.
+You: What is photosynthesis?
+Nova: Photosynthesis: the process by which green plants use sunlight, water and carbon dioxide to make their food (glucose) and release oxygen.
+You: Who invented the telephone?
+Nova: The telephone was credited to Alexander Graham Bell, in 1876.
+You: What time is it?
+Nova: The current time is 07:00 AM.
+You: Tell me about the internship at Pynexia
+Nova: This chatbot is a hands-on project from the Pynexia Technology internship. Interns here learn by building small AI projects - like the Water Jug search program and this chatbot.
+You: What is BFS and DFS?
+Nova: BFS explores a state space level by level and guarantees the shortest solution; DFS dives deep first and uses less memory. My author's Water Jug project measured both: BFS solved it in 4 steps, DFS in 6.
+You: I feel stressed today
+Nova: I am sorry to hear that. A small rule for hard days: one tiny task at a time - momentum beats motivation.
+You: Tell me a joke
+Nova: Why did the rule-based chatbot break up with the database? Too many unresolved queries.
+You: asdf qwerty zzz
+Nova: I do not have a rule for that one yet. But try me on maths, capitals, definitions, inventors, time, Python, AI, sports, food, travel - or type 'help'.
+You: Thank you!
+Nova: You are welcome! Rules or not, helping you made my day.
+You: Bye
+Nova: See you soon! Type anytime to start a new conversation. (Nice chatting with you, Sehar!)
